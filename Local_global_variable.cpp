@@ -4,7 +4,6 @@ using ll  = long long;
 
 ll glo=6;
 void sum(){
-    ll glo=9;
     cout << glo << endl;
 }
 int main(){

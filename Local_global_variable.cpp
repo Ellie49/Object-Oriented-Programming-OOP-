@@ -2,13 +2,12 @@
 using namespace std;
 using ll  = long long;
 
-ll glo=6;
+ll glo=6; // global variable
 void sum(){
-    ll glo=9;
     cout << glo << endl;
 }
 int main(){
-   ll glo = 7;
+   ll glo = 7; // local variable
     glo = 78;
     cout << glo << endl;
     sum();
